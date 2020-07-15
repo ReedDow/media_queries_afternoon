@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+  background-image: url(https://anubhavsrivastava.github.io/gatsby-starter-grayscale/static/bg-masthead-d3b4a514dfb172f6ac1817f5bdb974ad.jpg);
+  height: 100vh;
+}
+
+.App-nav {
+  background-color: transparent;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: gray;
+}
+.nav1{
+  position: absolute;
+  left: 100px;
+  font-size: calc(15px + 2vmin);
+}
+
+
+.link1{
+  position: absolute;
+  right: 300px;
+}
+
+.link2{
+  position: absolute;
+  right: 200px;
+}
+
+.link3{
+  position: absolute;
+  right: 100px;
+}
+
+.dropdown {
+display: none;
+}
+.mobile-menu {
+display: none;
+}
+form{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 80px;
+}
+h1{
+  font-size: 100px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p{
+  position: relative;
+  bottom: 50px;
+  width: 300px;
+}
+
+button{
+  background-color: teal;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+@media(max-width: 768px){
+  .App-nav{
+    background-color: white;
+  }
+  .nav1{
+    color: black;
+    font-size: 28px;
+  }
+  .desktop-menu{
+    display: none;
+  }
+  .dropdown{
+    display: initial;
+    position: absolute;
+    right: 100px;
+    top: 21px;
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .mobile-menu{
+    display: initial;
+    height: 140px;
+    width: 255px;
+    background-color: white;
+    position: fixed;
+    top: 66px;
+    right: 0px;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  h1{
+    font-size: 70px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+  
+
+  }
+
+
+
+
+
+
+
